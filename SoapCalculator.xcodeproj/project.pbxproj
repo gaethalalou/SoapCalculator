@@ -3,11 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF27B74F25E782AA00A2ABF2 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27B74E25E782AA00A2ABF2 /* RoundButton.swift */; };
+		EF0DFB6925EB6024006C2EFA /* AddRecipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0DFB6825EB6024006C2EFA /* AddRecipeController.swift */; };
+		EF21A76325F058AE007FCC54 /* WaterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF21A76225F058AE007FCC54 /* WaterController.swift */; };
+		EF23AC2B25EF288B000BFB17 /* OilWeightController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF23AC2A25EF288B000BFB17 /* OilWeightController.swift */; };
+		EF23AC2E25EF4BB3000BFB17 /* OilWeightCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF23AC2D25EF4BB3000BFB17 /* OilWeightCustomCell.swift */; };
+		EF406C2825E8BFCD0068F9AB /* Soap.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF406C2725E8BFCD0068F9AB /* Soap.swift */; };
+		EF406C2C25E8C6D80068F9AB /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = EF406C2B25E8C6D80068F9AB /* Realm */; };
+		EF406C2E25E8C6D80068F9AB /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EF406C2D25E8C6D80068F9AB /* RealmSwift */; };
+		EFA1B7F425EC9FCB0015FD48 /* OilController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA1B7F325EC9FCB0015FD48 /* OilController.swift */; };
+		EFAD14FF25E9A89200018F94 /* Oil.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD14FE25E9A89200018F94 /* Oil.swift */; };
+		EFAD151625EA09A900018F94 /* oils.txt in Resources */ = {isa = PBXBuildFile; fileRef = EFAD151525EA09A900018F94 /* oils.txt */; };
+		EFCC511225F1843D000AB6C9 /* resultRecipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCC511125F1843D000AB6C9 /* resultRecipeController.swift */; };
+		EFCC511525F196B1000AB6C9 /* RecipeOilCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCC511425F196B1000AB6C9 /* RecipeOilCell.swift */; };
+		EFCC511825F213AC000AB6C9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCC511725F213AC000AB6C9 /* SettingsViewController.swift */; };
 		EFF3161825E7613700E4D23E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF3161725E7613700E4D23E /* AppDelegate.swift */; };
 		EFF3161A25E7613700E4D23E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF3161925E7613700E4D23E /* SceneDelegate.swift */; };
 		EFF3161C25E7613700E4D23E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF3161B25E7613700E4D23E /* ViewController.swift */; };
@@ -18,7 +30,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EF27B74E25E782AA00A2ABF2 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		EF0DFB6825EB6024006C2EFA /* AddRecipeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeController.swift; sourceTree = "<group>"; };
+		EF21A76225F058AE007FCC54 /* WaterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterController.swift; sourceTree = "<group>"; };
+		EF23AC2A25EF288B000BFB17 /* OilWeightController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OilWeightController.swift; sourceTree = "<group>"; };
+		EF23AC2D25EF4BB3000BFB17 /* OilWeightCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OilWeightCustomCell.swift; sourceTree = "<group>"; };
+		EF406C2725E8BFCD0068F9AB /* Soap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soap.swift; sourceTree = "<group>"; };
+		EFA1B7F325EC9FCB0015FD48 /* OilController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OilController.swift; sourceTree = "<group>"; };
+		EFAD14FE25E9A89200018F94 /* Oil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oil.swift; sourceTree = "<group>"; };
+		EFAD151525EA09A900018F94 /* oils.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = oils.txt; path = ../../../oils.txt; sourceTree = "<group>"; };
+		EFCC511125F1843D000AB6C9 /* resultRecipeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultRecipeController.swift; sourceTree = "<group>"; };
+		EFCC511425F196B1000AB6C9 /* RecipeOilCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeOilCell.swift; sourceTree = "<group>"; };
+		EFCC511725F213AC000AB6C9 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		EFF3161425E7613700E4D23E /* SoapCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoapCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF3161725E7613700E4D23E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFF3161925E7613700E4D23E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,12 +57,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF406C2E25E8C6D80068F9AB /* RealmSwift in Frameworks */,
+				EF406C2C25E8C6D80068F9AB /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EFA1B7F725ECBB0C0015FD48 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EFFFC2CA25E88DEC00F2C738 /* CustomCell.swift */,
+				EFCC511425F196B1000AB6C9 /* RecipeOilCell.swift */,
+				EF23AC2D25EF4BB3000BFB17 /* OilWeightCustomCell.swift */,
+				EFF3161B25E7613700E4D23E /* ViewController.swift */,
+				EFA1B7F325EC9FCB0015FD48 /* OilController.swift */,
+				EF0DFB6825EB6024006C2EFA /* AddRecipeController.swift */,
+				EF23AC2A25EF288B000BFB17 /* OilWeightController.swift */,
+				EF21A76225F058AE007FCC54 /* WaterController.swift */,
+				EFCC511125F1843D000AB6C9 /* resultRecipeController.swift */,
+				EFCC511725F213AC000AB6C9 /* SettingsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EFA1B7F825ECBB500015FD48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF406C2725E8BFCD0068F9AB /* Soap.swift */,
+				EFAD14FE25E9A89200018F94 /* Oil.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EFA1B7FA25ECBB5A0015FD48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EFF3162225E7613700E4D23E /* LaunchScreen.storyboard */,
+				EFF3161D25E7613700E4D23E /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		EFF3160B25E7613700E4D23E = {
 			isa = PBXGroup;
 			children = (
@@ -61,14 +120,13 @@
 			isa = PBXGroup;
 			children = (
 				EFF3161725E7613700E4D23E /* AppDelegate.swift */,
+				EFAD151525EA09A900018F94 /* oils.txt */,
 				EFF3161925E7613700E4D23E /* SceneDelegate.swift */,
-				EFF3161B25E7613700E4D23E /* ViewController.swift */,
-				EFF3161D25E7613700E4D23E /* Main.storyboard */,
-				EFFFC2CA25E88DEC00F2C738 /* CustomCell.swift */,
+				EFA1B7F725ECBB0C0015FD48 /* Controller */,
+				EFA1B7F825ECBB500015FD48 /* Model */,
+				EFA1B7FA25ECBB5A0015FD48 /* View */,
 				EFF3162025E7613700E4D23E /* Assets.xcassets */,
-				EFF3162225E7613700E4D23E /* LaunchScreen.storyboard */,
 				EFF3162525E7613700E4D23E /* Info.plist */,
-				EF27B74E25E782AA00A2ABF2 /* RoundButton.swift */,
 			);
 			path = SoapCalculator;
 			sourceTree = "<group>";
@@ -89,6 +147,10 @@
 			dependencies = (
 			);
 			name = SoapCalculator;
+			packageProductDependencies = (
+				EF406C2B25E8C6D80068F9AB /* Realm */,
+				EF406C2D25E8C6D80068F9AB /* RealmSwift */,
+			);
 			productName = SoapCalculator;
 			productReference = EFF3161425E7613700E4D23E /* SoapCalculator.app */;
 			productType = "com.apple.product-type.application";
@@ -116,6 +178,9 @@
 				Base,
 			);
 			mainGroup = EFF3160B25E7613700E4D23E;
+			packageReferences = (
+				EF406C2A25E8C6D80068F9AB /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
 			productRefGroup = EFF3161525E7613700E4D23E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -131,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFF3162425E7613700E4D23E /* LaunchScreen.storyboard in Resources */,
+				EFAD151625EA09A900018F94 /* oils.txt in Resources */,
 				EFF3162125E7613700E4D23E /* Assets.xcassets in Resources */,
 				EFF3161F25E7613700E4D23E /* Main.storyboard in Resources */,
 			);
@@ -143,10 +209,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF27B74F25E782AA00A2ABF2 /* RoundButton.swift in Sources */,
+				EF406C2825E8BFCD0068F9AB /* Soap.swift in Sources */,
+				EF21A76325F058AE007FCC54 /* WaterController.swift in Sources */,
+				EFCC511525F196B1000AB6C9 /* RecipeOilCell.swift in Sources */,
+				EF23AC2E25EF4BB3000BFB17 /* OilWeightCustomCell.swift in Sources */,
+				EF0DFB6925EB6024006C2EFA /* AddRecipeController.swift in Sources */,
 				EFF3161C25E7613700E4D23E /* ViewController.swift in Sources */,
+				EFAD14FF25E9A89200018F94 /* Oil.swift in Sources */,
+				EFCC511225F1843D000AB6C9 /* resultRecipeController.swift in Sources */,
 				EFFFC2CB25E88DEC00F2C738 /* CustomCell.swift in Sources */,
+				EFCC511825F213AC000AB6C9 /* SettingsViewController.swift in Sources */,
 				EFF3161825E7613700E4D23E /* AppDelegate.swift in Sources */,
+				EFA1B7F425EC9FCB0015FD48 /* OilController.swift in Sources */,
+				EF23AC2B25EF288B000BFB17 /* OilWeightController.swift in Sources */,
 				EFF3161A25E7613700E4D23E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,8 +281,10 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = DSCB8LGHRD;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -224,7 +301,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -267,8 +344,10 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = DSCB8LGHRD;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -279,7 +358,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -347,6 +426,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EF406C2A25E8C6D80068F9AB /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EF406C2B25E8C6D80068F9AB /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF406C2A25E8C6D80068F9AB /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		EF406C2D25E8C6D80068F9AB /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF406C2A25E8C6D80068F9AB /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EFF3160C25E7613700E4D23E /* Project object */;
 }

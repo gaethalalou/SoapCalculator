@@ -1,10 +1,3 @@
-//
-//  CustomCell.swift
-//  SoapCalculator
-//
-//  Created by Gaeth Alalou on 2/25/21.
-//
-
 import UIKit
 
 class CustomCell: UITableViewCell {
@@ -15,13 +8,14 @@ class CustomCell: UITableViewCell {
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var titleLabel: UILabel!
     
+    var soap: Soap!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-
     }
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
-
+    
 }
